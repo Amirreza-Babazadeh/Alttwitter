@@ -32,10 +32,17 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
-# vercel
+# deployment platforms
 .vercel
+.netlify/
+
+# local agent and ide artifacts
+.agents/
+skills-lock.json
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
