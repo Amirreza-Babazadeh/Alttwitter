@@ -1,5 +1,13 @@
 # AltTwitter 🐦
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://alttwitter.netlify.app/)
+[![Next.js 16](https://img.shields.io/badge/Next.js%2016-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React 19](https://img.shields.io/badge/React%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind%20v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+> 🌐 **Live Demo URL**: [https://alttwitter.netlify.app/](https://alttwitter.netlify.app/)
+
 A full-stack social media web application inspired by Twitter/X, built with **Next.js 16 App Router**, **React 19**, **TypeScript**, **Supabase (PostgreSQL, Auth & Storage)**, **TanStack React Query**, and **Tailwind CSS v4**.
 
 ---
