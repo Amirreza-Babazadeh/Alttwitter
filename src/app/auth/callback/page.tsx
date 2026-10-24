@@ -49,7 +49,13 @@ export default function Page() {
     })
 
     if (insertError) {
-      setMessage(insertError.message)
+      if (insertError.message.includes('profiles_email_key')) {
+        setMessage('A profile with this email already exists.')
+      } else if (insertError.message.includes('profiles_username_key')) {
+        setMessage('This username is already taken. Please choose another.')
+      } else {
+        setMessage(insertError.message)
+      }
       return
     }
 
